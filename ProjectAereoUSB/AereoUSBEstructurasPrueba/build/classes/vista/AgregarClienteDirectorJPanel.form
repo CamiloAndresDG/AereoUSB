@@ -1,0 +1,531 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JPanelFormInfo">
+  <NonVisualComponents>
+    <Component class="javax.swing.JButton" name="jButtonVolver">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="0" green="0" red="99" type="rgb"/>
+        </Property>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="ff" red="ff" type="rgb"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Volver"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButtonVolverActionPerformed"/>
+      </Events>
+    </Component>
+  </NonVisualComponents>
+  <Properties>
+    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+      <Color blue="f9" green="ca" red="90" type="rgb"/>
+    </Property>
+  </Properties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="1" attributes="0">
+              <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Component id="jLabelCerrar" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="22" max="-2" attributes="0"/>
+          </Group>
+          <Group type="102" attributes="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="40" pref="40" max="-2" attributes="0"/>
+                      <Component id="jLabelMatricula" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="146" pref="146" max="-2" attributes="0"/>
+                      <Component id="jTextFieldNombre" min="-2" pref="212" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="230" pref="230" max="-2" attributes="0"/>
+                      <Component id="jSeparator5" min="-2" pref="210" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="40" pref="40" max="-2" attributes="0"/>
+                      <Component id="jLabelMarca" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="145" pref="145" max="-2" attributes="0"/>
+                      <Component id="jTextFieldApellido" min="-2" pref="212" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="230" pref="230" max="-2" attributes="0"/>
+                      <Component id="jSeparator10" min="-2" pref="210" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="40" pref="40" max="-2" attributes="0"/>
+                      <Component id="jLabelCantidadAsientos" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="176" pref="176" max="-2" attributes="0"/>
+                      <Component id="jTextFieldCC" min="-2" pref="212" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="230" pref="230" max="-2" attributes="0"/>
+                      <Component id="jSeparator9" min="-2" pref="210" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="40" pref="40" max="-2" attributes="0"/>
+                      <Component id="jLabelCantidadEquipajeSoporado" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="279" pref="279" max="-2" attributes="0"/>
+                      <Component id="jComboBoxGenero" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="40" pref="40" max="-2" attributes="0"/>
+                      <Component id="jLabelMarca1" min="-2" pref="90" max="-2" attributes="0"/>
+                      <EmptySpace min="100" pref="100" max="-2" attributes="0"/>
+                      <Component id="jTextFieldNacionalidad" min="-2" pref="212" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="230" pref="230" max="-2" attributes="0"/>
+                      <Component id="jSeparator8" min="-2" pref="210" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="40" pref="40" max="-2" attributes="0"/>
+                      <Component id="jLabelMarca2" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="152" pref="152" max="-2" attributes="0"/>
+                      <Component id="jTextFieldCorreo" min="-2" pref="210" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="230" pref="230" max="-2" attributes="0"/>
+                      <Component id="jSeparator7" min="-2" pref="210" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="40" pref="40" max="-2" attributes="0"/>
+                      <Component id="jLabelCostoMantenimiento" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="141" pref="141" max="-2" attributes="0"/>
+                      <Component id="jTextFieldCantidadAsientos1" min="-2" pref="212" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="230" pref="230" max="-2" attributes="0"/>
+                      <Component id="jSeparator6" min="-2" pref="210" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Component id="jButtonVolver2" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabelCostohangar" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="297" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jComboBoxVisa" alignment="1" min="-2" max="-2" attributes="0"/>
+                          <Component id="jButtonAgregarNuevoCliente" alignment="1" min="-2" pref="50" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+              <EmptySpace min="-2" pref="29" max="-2" attributes="0"/>
+          </Group>
+          <Group type="102" alignment="1" attributes="0">
+              <Component id="jLabelTituloAregarAvion" min="-2" pref="170" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="146" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="jLabelCerrar" min="-2" max="-2" attributes="0"/>
+                  <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="-2" pref="6" max="-2" attributes="0"/>
+                      <Component id="jLabelTituloAregarAvion" min="-2" pref="50" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jLabelMatricula" min="-2" max="-2" attributes="0"/>
+                          <Component id="jTextFieldNombre" min="-2" pref="20" max="-2" attributes="0"/>
+                      </Group>
+                      <Component id="jSeparator5" min="-2" pref="30" max="-2" attributes="0"/>
+                      <EmptySpace min="10" pref="10" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jLabelMarca" min="-2" max="-2" attributes="0"/>
+                          <Component id="jTextFieldApellido" min="-2" pref="20" max="-2" attributes="0"/>
+                      </Group>
+                      <Component id="jSeparator10" min="-2" pref="30" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jLabelCantidadAsientos" min="-2" max="-2" attributes="0"/>
+                          <Component id="jTextFieldCC" min="-2" pref="20" max="-2" attributes="0"/>
+                      </Group>
+                      <Component id="jSeparator9" min="-2" pref="30" max="-2" attributes="0"/>
+                      <EmptySpace min="30" pref="30" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jLabelCantidadEquipajeSoporado" min="-2" max="-2" attributes="0"/>
+                          <Component id="jComboBoxGenero" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="30" pref="30" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jLabelMarca1" min="-2" pref="30" max="-2" attributes="0"/>
+                          <Group type="102" attributes="0">
+                              <EmptySpace min="10" pref="10" max="-2" attributes="0"/>
+                              <Component id="jTextFieldNacionalidad" min="-2" pref="20" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <Component id="jSeparator8" min="-2" pref="30" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jLabelMarca2" min="-2" max="-2" attributes="0"/>
+                          <Component id="jTextFieldCorreo" min="-2" pref="20" max="-2" attributes="0"/>
+                      </Group>
+                      <Component id="jSeparator7" min="-2" pref="30" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jLabelCostoMantenimiento" min="-2" max="-2" attributes="0"/>
+                          <Component id="jTextFieldCantidadAsientos1" min="-2" pref="20" max="-2" attributes="0"/>
+                      </Group>
+                      <Component id="jSeparator6" min="-2" pref="30" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="20" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jLabelCostohangar" min="-2" max="-2" attributes="0"/>
+                          <Component id="jComboBoxVisa" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace pref="42" max="32767" attributes="0"/>
+                      <Component id="jButtonVolver2" min="-2" pref="30" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace max="32767" attributes="0"/>
+                      <Component id="jButtonAgregarNuevoCliente" min="-2" pref="40" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="jLabelMatricula">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="0" green="0" red="0" type="rgb"/>
+        </Property>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="11" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Nombre"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabelMarca">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="0" green="0" red="0" type="rgb"/>
+        </Property>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="11" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Apellido"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabelCantidadAsientos">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="0" green="0" red="0" type="rgb"/>
+        </Property>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="11" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="CC"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabelCostoMantenimiento">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="0" green="0" red="0" type="rgb"/>
+        </Property>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="11" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Telefono"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabelCostohangar">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="0" green="0" red="0" type="rgb"/>
+        </Property>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="11" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Visa"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabelCantidadEquipajeSoporado">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="0" green="0" red="0" type="rgb"/>
+        </Property>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="11" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Genero"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jTextFieldNombre">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="f9" green="ca" red="90" type="rgb"/>
+        </Property>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="null"/>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jTextFieldNombreActionPerformed"/>
+        <EventHandler event="keyTyped" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="jTextFieldNombreKeyTyped"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jTextFieldCC">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="f9" green="ca" red="90" type="rgb"/>
+        </Property>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="null"/>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jTextFieldCCActionPerformed"/>
+        <EventHandler event="keyTyped" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="jTextFieldCCKeyTyped"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jTextFieldApellido">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="f9" green="ca" red="90" type="rgb"/>
+        </Property>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="null"/>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="keyTyped" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="jTextFieldApellidoKeyTyped"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabelMarca1">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="0" green="0" red="0" type="rgb"/>
+        </Property>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="11" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Nacionalidad"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jTextFieldNacionalidad">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="f9" green="ca" red="90" type="rgb"/>
+        </Property>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="null"/>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="keyTyped" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="jTextFieldNacionalidadKeyTyped"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabelMarca2">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="0" green="0" red="0" type="rgb"/>
+        </Property>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="11" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Correo"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jTextFieldCorreo">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="f9" green="ca" red="90" type="rgb"/>
+        </Property>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="null"/>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="keyTyped" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="jTextFieldCorreoKeyTyped"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jTextFieldCantidadAsientos1">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="f9" green="ca" red="90" type="rgb"/>
+        </Property>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="null"/>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jTextFieldCantidadAsientos1ActionPerformed"/>
+        <EventHandler event="keyTyped" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="jTextFieldCantidadAsientos1KeyTyped"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="jComboBoxVisa">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="f9" green="ca" red="90" type="rgb"/>
+        </Property>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="2">
+            <StringItem index="0" value="Si lo tiene"/>
+            <StringItem index="1" value="No lo tiene"/>
+          </StringArray>
+        </Property>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="null"/>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jComboBoxVisaActionPerformed"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="jComboBoxGenero">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="f9" green="ca" red="90" type="rgb"/>
+        </Property>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="2">
+            <StringItem index="0" value="Femenino"/>
+            <StringItem index="1" value="Masculino"/>
+          </StringArray>
+        </Property>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="null"/>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jComboBoxGeneroActionPerformed"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabelTituloAregarAvion">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Harlow Solid Italic" size="24" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Agregar cliente"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JSeparator" name="jSeparator5">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="0" green="0" red="0" type="rgb"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JSeparator" name="jSeparator6">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="0" green="0" red="0" type="rgb"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JSeparator" name="jSeparator7">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="0" green="0" red="0" type="rgb"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JSeparator" name="jSeparator8">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="0" green="0" red="0" type="rgb"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JSeparator" name="jSeparator9">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="0" green="0" red="0" type="rgb"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JSeparator" name="jSeparator10">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="0" green="0" red="0" type="rgb"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="jButtonAgregarNuevoCliente">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="f9" green="ca" red="90" type="rgb"/>
+        </Property>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="ff" red="ff" type="rgb"/>
+        </Property>
+        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="3" name="/iconos/baseline_control_point_black_18dp.png"/>
+        </Property>
+        <Property name="borderPainted" type="boolean" value="false"/>
+        <Property name="contentAreaFilled" type="boolean" value="false"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButtonAgregarNuevoClienteActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="jButtonVolver2">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="f9" green="ca" red="90" type="rgb"/>
+        </Property>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="ff" red="ff" type="rgb"/>
+        </Property>
+        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="3" name="/iconos/baseline_chevron_left_black_18dp.png"/>
+        </Property>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="null"/>
+        </Property>
+        <Property name="contentAreaFilled" type="boolean" value="false"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButtonVolver2ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabelCerrar">
+      <Properties>
+        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="3" name="/iconos/baseline_close_black_18dp.png"/>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jLabelCerrarMouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel1">
+      <Properties>
+        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="3" name="/iconos/baseline_expand_more_black_18dp.png"/>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jLabel1MouseClicked"/>
+      </Events>
+    </Component>
+  </SubComponents>
+</Form>

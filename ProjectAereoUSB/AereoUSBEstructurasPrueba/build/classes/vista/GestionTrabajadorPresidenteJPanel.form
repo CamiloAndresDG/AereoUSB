@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JPanelFormInfo">
+  <NonVisualComponents>
+    <Component class="javax.swing.JButton" name="jButtonEliminarAeroanve">
+      <Properties>
+        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="3" name="/iconos/baseline_delete_black_24dp.png"/>
+        </Property>
+        <Property name="borderPainted" type="boolean" value="false"/>
+        <Property name="contentAreaFilled" type="boolean" value="false"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButtonEliminarAeroanveActionPerformed"/>
+      </Events>
+    </Component>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JList" name="jList1">
+          <Properties>
+            <Property name="model" type="javax.swing.ListModel" editor="org.netbeans.modules.form.editors2.ListModelEditor">
+              <StringArray count="0"/>
+            </Property>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+          </AuxValues>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JButton" name="jButtonActualizar">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="0" green="0" red="99" type="rgb"/>
+        </Property>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="ff" red="ff" type="rgb"/>
+        </Property>
+        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="3" name="/iconos/baseline_autorenew_black_18dp.png"/>
+        </Property>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="null"/>
+        </Property>
+        <Property name="borderPainted" type="boolean" value="false"/>
+        <Property name="contentAreaFilled" type="boolean" value="false"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButtonActualizarActionPerformed"/>
+      </Events>
+    </Component>
+  </NonVisualComponents>
+  <Properties>
+    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+      <Color blue="f9" green="ca" red="90" type="rgb"/>
+    </Property>
+  </Properties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace min="-2" pref="68" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="1" attributes="0">
+                  <Component id="jButtonAgregarAeronave" min="-2" max="-2" attributes="0"/>
+                  <Component id="jButtonEliminarAeroanve1" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="32767" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="-2" pref="217" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jButtonBuscarAeronave" min="-2" pref="80" max="-2" attributes="0"/>
+                          <Component id="jButtonModificarAeronave" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="65" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="1" attributes="0">
+                          <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Component id="jLabelCerrar" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="39" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="1" attributes="0">
+                          <Component id="jLabel2" min="-2" pref="190" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="174" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+          </Group>
+          <Group type="102" attributes="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jButtonVolver1" min="-2" pref="50" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="453" max="-2" attributes="0"/>
+                      <Component id="jButtonActualizar1" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="20" max="-2" attributes="0"/>
+                      <Component id="jScrollPane2" min="-2" pref="530" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace pref="17" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="jLabelCerrar" min="-2" max="-2" attributes="0"/>
+                  <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="10" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="1" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Component id="jLabel2" min="-2" pref="160" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <Component id="jButtonAgregarAeronave" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="jButtonEliminarAeroanve1" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <Component id="jButtonBuscarAeronave" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="jButtonModificarAeronave" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="jScrollPane2" min="-2" pref="135" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="jButtonVolver1" min="-2" pref="40" max="-2" attributes="0"/>
+                  </Group>
+                  <Component id="jButtonActualizar1" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JButton" name="jButtonAgregarAeronave">
+      <Properties>
+        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="3" name="/iconos/baseline_control_point_black_24dp.png"/>
+        </Property>
+        <Property name="borderPainted" type="boolean" value="false"/>
+        <Property name="contentAreaFilled" type="boolean" value="false"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButtonAgregarAeronaveActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="jButtonBuscarAeronave">
+      <Properties>
+        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="3" name="/iconos/baseline_search_black_24dp.png"/>
+        </Property>
+        <Property name="borderPainted" type="boolean" value="false"/>
+        <Property name="contentAreaFilled" type="boolean" value="false"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButtonBuscarAeronaveActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel2">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="cc" green="66" red="0" type="rgb"/>
+        </Property>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="11" style="1"/>
+        </Property>
+        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="3" name="/iconos/ISOLOGO USB (4).png"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabelCerrar">
+      <Properties>
+        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="3" name="/iconos/baseline_close_black_18dp.png"/>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jLabelCerrarMouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel1">
+      <Properties>
+        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="3" name="/iconos/baseline_expand_more_black_18dp.png"/>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jLabel1MouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="jButtonEliminarAeroanve1">
+      <Properties>
+        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="3" name="/iconos/baseline_delete_black_24dp.png"/>
+        </Property>
+        <Property name="borderPainted" type="boolean" value="false"/>
+        <Property name="contentAreaFilled" type="boolean" value="false"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButtonEliminarAeroanve1ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="jButtonModificarAeronave">
+      <Properties>
+        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="3" name="/iconos/baseline_build_black_24dp.png"/>
+        </Property>
+        <Property name="borderPainted" type="boolean" value="false"/>
+        <Property name="contentAreaFilled" type="boolean" value="false"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButtonModificarAeronaveActionPerformed"/>
+      </Events>
+    </Component>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane2">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JList" name="jList2">
+          <Properties>
+            <Property name="model" type="javax.swing.ListModel" editor="org.netbeans.modules.form.editors2.ListModelEditor">
+              <StringArray count="0"/>
+            </Property>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+          </AuxValues>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JButton" name="jButtonVolver1">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="f9" green="ca" red="90" type="rgb"/>
+        </Property>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="ff" red="ff" type="rgb"/>
+        </Property>
+        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="3" name="/iconos/baseline_chevron_left_black_18dp.png"/>
+        </Property>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="null"/>
+        </Property>
+        <Property name="contentAreaFilled" type="boolean" value="false"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButtonVolver1ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="jButtonActualizar1">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="0" green="0" red="99" type="rgb"/>
+        </Property>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="ff" red="ff" type="rgb"/>
+        </Property>
+        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="3" name="/iconos/baseline_autorenew_black_18dp.png"/>
+        </Property>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="null"/>
+        </Property>
+        <Property name="borderPainted" type="boolean" value="false"/>
+        <Property name="contentAreaFilled" type="boolean" value="false"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButtonActualizar1ActionPerformed"/>
+      </Events>
+    </Component>
+  </SubComponents>
+</Form>

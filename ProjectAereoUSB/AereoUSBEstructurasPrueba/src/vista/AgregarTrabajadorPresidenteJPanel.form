@@ -1,0 +1,769 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JPanelFormInfo">
+  <NonVisualComponents>
+    <Component class="javax.swing.JLabel" name="jLabel1">
+      <Properties>
+        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="3" name="/iconos/baseline_expand_more_black_18dp.png"/>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jLabel1MouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JSeparator" name="jSeparator1">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="0" green="0" red="0" type="rgb"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JSeparator" name="jSeparator3">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="0" green="0" red="0" type="rgb"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JSeparator" name="jSeparator8">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="0" green="0" red="0" type="rgb"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabelMatricula11">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="11" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Matricula:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabelMatricula12">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="11" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Matricula:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jTextFieldMatricula5">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="f9" green="ca" red="90" type="rgb"/>
+        </Property>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="null"/>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jTextFieldMatricula5ActionPerformed"/>
+        <EventHandler event="keyTyped" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="jTextFieldMatricula5KeyTyped"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jTextFieldMatricula6">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="f9" green="ca" red="90" type="rgb"/>
+        </Property>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="null"/>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jTextFieldMatricula6ActionPerformed"/>
+        <EventHandler event="keyTyped" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="jTextFieldMatricula6KeyTyped"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JSeparator" name="jSeparator9">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="0" green="0" red="0" type="rgb"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JSeparator" name="jSeparator12">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="0" green="0" red="0" type="rgb"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabelMatricula15">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="11" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Matricula:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabelMatricula16">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="11" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Matricula:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jTextFieldMatricula9">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="f9" green="ca" red="90" type="rgb"/>
+        </Property>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="null"/>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jTextFieldMatricula9ActionPerformed"/>
+        <EventHandler event="keyTyped" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="jTextFieldMatricula9KeyTyped"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jTextFieldMatricula10">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="f9" green="ca" red="90" type="rgb"/>
+        </Property>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="null"/>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jTextFieldMatricula10ActionPerformed"/>
+        <EventHandler event="keyTyped" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="jTextFieldMatricula10KeyTyped"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JSeparator" name="jSeparator13">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="0" green="0" red="0" type="rgb"/>
+        </Property>
+      </Properties>
+    </Component>
+  </NonVisualComponents>
+  <Properties>
+    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+      <Color blue="f9" green="ca" red="90" type="rgb"/>
+    </Property>
+  </Properties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jButtonVolver1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="32767" attributes="0"/>
+              <Component id="jButtonAgregarNuevoAvion" min="-2" pref="50" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace max="32767" attributes="0"/>
+              <Component id="jLabelTituloAregarAvion" min="-2" pref="226" max="-2" attributes="0"/>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Component id="jLabelCerrar" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
+          </Group>
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="64" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Component id="jLabelMatricula18" alignment="1" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabelMatricula17" alignment="1" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="32767" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jTextFieldMatricula12" alignment="1" min="-2" pref="212" max="-2" attributes="0"/>
+                          <Group type="102" alignment="1" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="jSeparator14" alignment="0" min="-2" pref="210" max="-2" attributes="0"/>
+                                  <Component id="jSeparator15" alignment="0" min="-2" pref="210" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="14" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Component id="jLabelMatricula14" alignment="1" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabelMatricula13" alignment="1" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="32767" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jTextFieldMatricula8" alignment="1" min="-2" pref="212" max="-2" attributes="0"/>
+                          <Group type="102" alignment="1" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="jSeparator10" alignment="0" min="-2" pref="210" max="-2" attributes="0"/>
+                                  <Component id="jSeparator11" alignment="0" min="-2" pref="210" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="14" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Component id="jLabelMatricula10" alignment="1" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabelMatricula9" alignment="1" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="32767" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jTextFieldMatricula4" alignment="1" min="-2" pref="212" max="-2" attributes="0"/>
+                          <Group type="102" alignment="1" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="jSeparator6" alignment="0" min="-2" pref="210" max="-2" attributes="0"/>
+                                  <Component id="jSeparator7" alignment="0" min="-2" pref="210" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="14" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Component id="jLabelMatricula4" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabelMatricula3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace pref="152" max="32767" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="1" attributes="0">
+                              <Component id="jTextFieldMatricula1" min="-2" pref="212" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="103" alignment="1" groupAlignment="0" attributes="0">
+                              <Group type="102" alignment="1" attributes="0">
+                                  <Component id="jTextFieldMatricula2" min="-2" pref="212" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="14" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="1" attributes="0">
+                                  <Group type="103" groupAlignment="1" attributes="0">
+                                      <Component id="jTextFieldMatricula" min="-2" pref="212" max="-2" attributes="0"/>
+                                      <Group type="103" alignment="1" groupAlignment="0" attributes="0">
+                                          <Component id="jSeparator4" min="-2" pref="210" max="-2" attributes="0"/>
+                                          <Component id="jSeparator2" min="-2" pref="210" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                  <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <EmptySpace min="-2" pref="2" max="-2" attributes="0"/>
+                                  <Component id="jTextFieldMatricula3" min="-2" pref="212" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="201" pref="201" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jTextFieldMatricula11" alignment="0" min="-2" pref="212" max="-2" attributes="0"/>
+                          <Component id="jTextFieldMatricula7" alignment="0" min="-2" pref="212" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+          </Group>
+          <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" pref="77" max="-2" attributes="0"/>
+                  <Component id="jLabelMatricula19" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace pref="383" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Group type="102" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
+                                      <Component id="jLabelTituloAregarAvion" min="-2" pref="50" max="-2" attributes="0"/>
+                                      <EmptySpace min="-2" pref="15" max="-2" attributes="0"/>
+                                      <Component id="jTextFieldMatricula" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Component id="jLabel2" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jLabelCerrar" alignment="0" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="8" max="-2" attributes="0"/>
+                              <Component id="jSeparator2" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Component id="jLabelMatricula3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="jLabelMatricula4" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="8" max="-2" attributes="0"/>
+                              <Component id="jTextFieldMatricula1" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="5" max="-2" attributes="0"/>
+                              <Component id="jSeparator4" min="-2" pref="8" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="jTextFieldMatricula2" min="-2" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="1" attributes="0">
+                  <Component id="jLabelMatricula9" min="-2" max="-2" attributes="0"/>
+                  <Group type="102" attributes="0">
+                      <Component id="jTextFieldMatricula3" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jSeparator7" min="-2" pref="4" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="jLabelMatricula10" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="8" max="-2" attributes="0"/>
+                      <Component id="jTextFieldMatricula4" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="5" max="-2" attributes="0"/>
+                      <Component id="jSeparator6" min="-2" pref="8" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="1" attributes="0">
+                  <Component id="jLabelMatricula13" alignment="1" min="-2" max="-2" attributes="0"/>
+                  <Group type="102" alignment="1" attributes="0">
+                      <Component id="jTextFieldMatricula7" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jSeparator11" min="-2" pref="4" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="jLabelMatricula14" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="8" max="-2" attributes="0"/>
+                      <Component id="jTextFieldMatricula8" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="5" max="-2" attributes="0"/>
+                      <Component id="jSeparator10" min="-2" pref="8" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="1" attributes="0">
+                  <Component id="jLabelMatricula17" alignment="1" min="-2" max="-2" attributes="0"/>
+                  <Group type="102" alignment="1" attributes="0">
+                      <Component id="jTextFieldMatricula11" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jSeparator15" min="-2" pref="4" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="jLabelMatricula18" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="8" max="-2" attributes="0"/>
+                      <Component id="jTextFieldMatricula12" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="5" max="-2" attributes="0"/>
+                      <Component id="jSeparator14" min="-2" pref="8" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace pref="57" max="32767" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="jButtonAgregarNuevoAvion" min="-2" pref="40" max="-2" attributes="0"/>
+                  <Component id="jButtonVolver1" min="-2" pref="30" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+          <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="1" attributes="0">
+                  <EmptySpace pref="374" max="32767" attributes="0"/>
+                  <Component id="jLabelMatricula19" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="101" max="-2" attributes="0"/>
+              </Group>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="jLabelMatricula3">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="11" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="ID:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabelMatricula4">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="11" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Nombre:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="jButtonVolver1">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="f9" green="ca" red="90" type="rgb"/>
+        </Property>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="ff" red="ff" type="rgb"/>
+        </Property>
+        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="3" name="/iconos/baseline_chevron_left_black_18dp.png"/>
+        </Property>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="null"/>
+        </Property>
+        <Property name="contentAreaFilled" type="boolean" value="false"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButtonVolver1ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="jButtonAgregarNuevoAvion">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="f9" green="ca" red="90" type="rgb"/>
+        </Property>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="ff" red="ff" type="rgb"/>
+        </Property>
+        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="3" name="/iconos/baseline_control_point_black_18dp.png"/>
+        </Property>
+        <Property name="borderPainted" type="boolean" value="false"/>
+        <Property name="contentAreaFilled" type="boolean" value="false"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButtonAgregarNuevoAvionActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel2">
+      <Properties>
+        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="3" name="/iconos/baseline_expand_more_black_18dp.png"/>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jLabel2MouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabelCerrar">
+      <Properties>
+        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="3" name="/iconos/baseline_close_black_18dp.png"/>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jLabelCerrarMouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabelTituloAregarAvion">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Harlow Solid Italic" size="24" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Agregar trabajador"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jTextFieldMatricula">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="f9" green="ca" red="90" type="rgb"/>
+        </Property>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="null"/>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jTextFieldMatriculaActionPerformed"/>
+        <EventHandler event="keyTyped" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="jTextFieldMatriculaKeyTyped"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jTextFieldMatricula1">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="f9" green="ca" red="90" type="rgb"/>
+        </Property>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="null"/>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jTextFieldMatricula1ActionPerformed"/>
+        <EventHandler event="keyTyped" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="jTextFieldMatricula1KeyTyped"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jTextFieldMatricula2">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="f9" green="ca" red="90" type="rgb"/>
+        </Property>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="null"/>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jTextFieldMatricula2ActionPerformed"/>
+        <EventHandler event="keyTyped" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="jTextFieldMatricula2KeyTyped"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JSeparator" name="jSeparator2">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="0" green="0" red="0" type="rgb"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JSeparator" name="jSeparator4">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="0" green="0" red="0" type="rgb"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JSeparator" name="jSeparator6">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="0" green="0" red="0" type="rgb"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabelMatricula9">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="11" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Apellido:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabelMatricula10">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="11" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="CC:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jTextFieldMatricula3">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="f9" green="ca" red="90" type="rgb"/>
+        </Property>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="null"/>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jTextFieldMatricula3ActionPerformed"/>
+        <EventHandler event="keyTyped" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="jTextFieldMatricula3KeyTyped"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jTextFieldMatricula4">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="f9" green="ca" red="90" type="rgb"/>
+        </Property>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="null"/>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jTextFieldMatricula4ActionPerformed"/>
+        <EventHandler event="keyTyped" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="jTextFieldMatricula4KeyTyped"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JSeparator" name="jSeparator7">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="0" green="0" red="0" type="rgb"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JSeparator" name="jSeparator10">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="0" green="0" red="0" type="rgb"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabelMatricula13">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="11" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Tipo:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabelMatricula14">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="11" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Nacionalidad:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jTextFieldMatricula7">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="f9" green="ca" red="90" type="rgb"/>
+        </Property>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="null"/>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jTextFieldMatricula7ActionPerformed"/>
+        <EventHandler event="keyTyped" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="jTextFieldMatricula7KeyTyped"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jTextFieldMatricula8">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="f9" green="ca" red="90" type="rgb"/>
+        </Property>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="null"/>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jTextFieldMatricula8ActionPerformed"/>
+        <EventHandler event="keyTyped" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="jTextFieldMatricula8KeyTyped"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JSeparator" name="jSeparator11">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="0" green="0" red="0" type="rgb"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JSeparator" name="jSeparator14">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="0" green="0" red="0" type="rgb"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabelMatricula17">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="11" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Genero:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabelMatricula18">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="11" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Correo:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jTextFieldMatricula11">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="f9" green="ca" red="90" type="rgb"/>
+        </Property>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="null"/>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jTextFieldMatricula11ActionPerformed"/>
+        <EventHandler event="keyTyped" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="jTextFieldMatricula11KeyTyped"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jTextFieldMatricula12">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="f9" green="ca" red="90" type="rgb"/>
+        </Property>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="null"/>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jTextFieldMatricula12ActionPerformed"/>
+        <EventHandler event="keyTyped" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="jTextFieldMatricula12KeyTyped"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JSeparator" name="jSeparator15">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="0" green="0" red="0" type="rgb"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabelMatricula19">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="11" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Correo:"/>
+      </Properties>
+    </Component>
+  </SubComponents>
+</Form>
